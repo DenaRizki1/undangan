@@ -93,7 +93,10 @@ img.imgp{
     width: 150px;
     height: 150px;
     margin: 0 0 0 480px;
-    border-radius: 5px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2), 
+              2px 2px 17px rgba(0, 0, 0, .35), 
+              2px 2px 25px rgba(0, 0, 0, .5);
 }
 
 h1.name{
@@ -245,6 +248,10 @@ h1.jam{
         margin: 0 0 0 100px;
 
     }
+
+    button.play{
+        padding: 100px 0 0 30px;
+    }
     
     img.imgp{
         width: 150px;
@@ -256,7 +263,7 @@ h1.jam{
     .bismillah img.bis{
         width: 300px;
         height: 150px;
-        margin-left: 20px;
+        margin-left: 40px;
     }
 
     img.ft1{
