@@ -201,9 +201,20 @@ h1.jam{
 }
 
 @media(max-width: 670px){
+    button.buka{
+        margin: 0 0 0 80px;
+
+    }
+    
     img.imgp{
         width: 150px;
         height: 150px;
         margin: 0 0 0 100px;
         border-radius: 5px;
+    }
+
+    .bismillah img.bis{
+        width: 300px;
+        height: 150px;
+        margin-left: 20px;
     }
