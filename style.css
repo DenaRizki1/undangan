@@ -226,4 +226,8 @@ h1.jam{
     .pgtn h1.wanita{
         padding-top: 30px;
     }
+
+    h1.penyelenggara{
+        font-size: medium;
+    }
 }
