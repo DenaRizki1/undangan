@@ -204,9 +204,12 @@ h1.jam{
 }
 
 @media(max-width: 670px){
+    .utama{
+        height: 680px;
+    }
+    
     button.buka{
         margin: 0 0 0 80px;
-
     }
     
     img.imgp{
@@ -244,6 +247,8 @@ h1.jam{
     }
 }
 @media(max-width: 1000px){
+   
+    
     button.buka{
         margin: 0 0 0 100px;
 
