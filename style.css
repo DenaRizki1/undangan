@@ -1,5 +1,4 @@
 
-
 .utama{
     background-image: url('background.jpg');
     background-repeat: no-repeat;
@@ -105,7 +104,7 @@ h1.name{
 }
 
 .tgla{
-    background-color: #fff9d9;
+    background-color: #ffebd6;
 }
 
 .bismillah img.bis{
@@ -118,10 +117,28 @@ h1.ua{
     font-size: 25px;
 }
 
-p.waktuacara{
-    font-size: 50px;
+h1#hari{
+    margin-left: 350px;
+}
+h1#jam{
+    margin-left: 30px;
+}
+h1#menit{
+    margin-left: 30px;
+}
+h1#detik{
+    margin-left: 20px;
+}
+
+
+h1.waktuacara{
+    font-size: 20px;
     border: 2px solid rgb(0, 0, 0);
-    padding: 0;
+    border-radius: 10px;
+    color: #964B00;
+    width: 100px;
+    height: 80px;
+    padding: 10px;
 }
 
 .ucapan{
@@ -203,6 +220,58 @@ h1.jam{
 
 }
 
+.map{
+    background-color: #ffebd6;
+    background-size: 100% 100%;
+}
+
+.lokasi img.bunga{
+    margin-left: 450px;
+}
+
+.lokasi h1.lokasiacara{
+    padding: 70px 0 30px 0;
+    font-family: 'Style Script', cursive;
+    color: #964B00;
+    z-index: 99;
+}
+
+h1.lks{
+    font-size: 30px;
+}
+p.gmaps iframe{
+    width: 800px;
+    height: 350px;
+    border: 2px solid;
+    border-radius: 20px;
+    margin-left: 160px ;
+}
+p.gmaps{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.map button.gmaps{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(250, 250, 250);
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    border-radius: 10px;
+    margin-left: 460px;
+    width: 190px;
+    height: 50px;
+}
+
+.map button.gmaps:hover{
+    background-color:  #964B00;
+}
+
+p.btn{
+    padding-bottom: 30px;
+}
+
+
+
 @media(max-width: 670px){
     .utama{
         height: 680px;
@@ -244,6 +313,47 @@ h1.jam{
 
     h1.sth{
         padding-bottom: 0;
+    }
+    .map button.gmaps{
+        margin-left: 40px;
+        width: 160px;
+        height: 40px;
+        font-size: medium;
+    }
+
+    p.gmaps iframe{
+        width: 300px;
+        height: 150px;
+        margin-left: 25px ;
+    }
+
+    .lokasi img.bunga{
+        margin-left: 130px;
+        height: 90px;
+        width: 80px;
+    }
+
+    .lokasi h1.lks{
+        padding: 30px 0 30px 0;
+    }
+
+    h1#hari{
+        margin-left: 15px;
+    }
+    h1#jam{
+        margin-left: 9px;
+    }
+    h1#menit{
+        margin-left: 9px;
+    }
+    h1#detik{
+        margin-left: 9px;
+    }  
+
+    h1.waktuacara{
+        font-size: 15px;
+        height: 70px;
+        width: 80px;
     }
 }
 @media(max-width: 1000px){
@@ -290,5 +400,47 @@ h1.jam{
 
     h1.sth{
         padding-bottom: 0;
+    }
+
+    .map button.gmaps{
+        margin-left: 100px;
+        width: 160px;
+        height: 40px;
+        font-size: medium;
+    }
+
+    p.gmaps iframe{
+        width: 300px;
+        height: 150px;
+        margin-left: 45px ;
+    }
+
+    .lokasi img.bunga{
+        margin-left: 160px;
+        height: 90px;
+        width: 80px;
+    }
+
+    .lokasi h1.lks{
+        padding: 30px 0 30px 0;
+    }
+
+    h1#hari{
+        margin-left: 35px;
+    }
+    h1#jam{
+        margin-left: 9px;
+    }
+    h1#menit{
+        margin-left: 9px;
+    }
+    h1#detik{
+        margin-left: 9px;
+    }  
+
+    h1.waktuacara{
+        font-size: 15px;
+        height: 70px;
+        width: 80px;
     }
 }
