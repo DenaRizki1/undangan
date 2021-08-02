@@ -43,10 +43,10 @@
 
 button.buka{
     margin: 0 0 0 470px;
-    border: 1px solid white;
+    border: 1px solid #964B00;
     border-radius: 15px;
-    background-color: white;
-    color: black;
+    background-color: #964B00;
+    color: rgb(255, 255, 255);
     width: 170px;
     height: 40px;
     position: absolute;
