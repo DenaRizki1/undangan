@@ -12,7 +12,7 @@
 
 .utama .container .row .mempelai h1.pria{
     font-style: normal;
-    font-family: 'Brush Script MT';
+    font-family: 'Style Script', cursive;
     font-size: 60px;
     height: auto;
     text-align: center;
@@ -20,7 +20,7 @@
 }
 .utama .container .row .mempelai h1.wanita{
     font-style: normal;
-    font-family: 'Brush Script MT';
+    font-family: 'Style Script', cursive;
     font-size: 60px;
     height: auto;
     text-align: center;
@@ -28,7 +28,7 @@
 }
 .utama .container .row .mempelai h1.n{
     font-style: normal;
-    font-family: 'Brush Script MT';
+    font-family: 'Style Script', cursive;
     font-size: 60px;
     height: auto;
     text-align: center;
@@ -97,7 +97,7 @@ img.imgp{
 }
 
 h1.name{
-    font-family: "Brush Script MT";
+    font-family: 'Style Script', cursive;
     padding: 50px 0 300px 0;
 }
 
@@ -144,7 +144,7 @@ img.ft1{
 }
 
 .pgtn h1.wanita{
-    font-family: "Brush Script MT";
+    font-family: 'Style Script', cursive;
     padding-bottom: 10px;
 
 }
@@ -154,7 +154,7 @@ img.ft1{
 }
 .pgtn h1.pria{
     padding-top: 10px;
-    font-family: "Brush Script MT";
+    font-family: 'Style Script', cursive;
     padding-bottom: 50px;
 
 }
@@ -175,13 +175,13 @@ p.love{
 }
 
 h1.sth{
-    font-family: "Brush Script MT";
+    font-family: 'Style Script', cursive;
     padding: 70px 0 0 0;
     font-size: 80px;
     color: lightskyblue;
 }
 h1.akad{
-    font-family: "Brush Script MT";
+    font-family: 'Style Script', cursive;
     padding: 190px 0 20px 0;
     margin-right: 40px;
     font-size: 40px;
@@ -220,7 +220,7 @@ h1.jam{
     }
 
     img.ft1{
-        margin: 10px 0 0 70px;
+        margin: 10px 0 0 75px;
     }
 
     .pgtn h1.wanita{
@@ -229,5 +229,54 @@ h1.jam{
 
     h1.penyelenggara{
         font-size: medium;
+    }
+
+    h1.akad{
+        margin-left: 50px;
+        padding-top: 30px;
+    }
+
+    h1.sth{
+        padding-bottom: 0;
+    }
+}
+@media(max-width: 1000px){
+    button.buka{
+        margin: 0 0 0 100px;
+
+    }
+    
+    img.imgp{
+        width: 150px;
+        height: 150px;
+        margin: 0 0 0 100px;
+        border-radius: 5px;
+    }
+
+    .bismillah img.bis{
+        width: 300px;
+        height: 150px;
+        margin-left: 20px;
+    }
+
+    img.ft1{
+        margin: 10px 0 0 75px;
+    }
+
+    .pgtn h1.wanita{
+        padding-top: 30px;
+    }
+
+    h1.penyelenggara{
+        font-size: medium;
+    }
+
+    h1.akad{
+        margin-left: 50px;
+        padding-top: 30px;
+    }
+
+    h1.sth{
+        padding-bottom: 0;
     }
 }
