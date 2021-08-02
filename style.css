@@ -1,0 +1,209 @@
+
+
+.utama{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.utama .container .row .mempelai{
+    padding-top: 70px;
+}
+
+.utama .container .row .mempelai h1.pria{
+    font-style: normal;
+    font-family: 'Brush Script MT';
+    font-size: 60px;
+    height: auto;
+    text-align: center;
+    padding: 100px 0 0 0;
+}
+.utama .container .row .mempelai h1.wanita{
+    font-style: normal;
+    font-family: 'Brush Script MT';
+    font-size: 60px;
+    height: auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.utama .container .row .mempelai h1.n{
+    font-style: normal;
+    font-family: 'Brush Script MT';
+    font-size: 60px;
+    height: auto;
+    text-align: center;
+}
+.utama .container .row .mempelai h1.kpd{
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    height: auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+button.buka{
+    margin: 0 0 0 470px;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    width: 170px;
+    height: 40px;
+    position: absolute;
+}
+.button{
+    padding-bottom: 150px;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+button.play{
+    background-color: transparent;
+    border: 0px;
+    z-index: 2;
+    display: flex;
+    padding: 200px 0 0 50px;
+}
+
+button.play i{
+   font-size: 30px;
+}
+
+button.play:hover{
+    color: black;
+}
+
+.pembuka{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+h1.invt{
+    padding: 30px 0 30px 0; 
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img.imgp{
+    width: 150px;
+    height: 150px;
+    margin: 0 0 0 480px;
+    border-radius: 5px;
+}
+
+h1.name{
+    font-family: "Brush Script MT";
+    padding: 50px 0 300px 0;
+}
+
+.tgla{
+    background-color: #fff9d9;
+}
+
+.bismillah img.bis{
+    width: 300px;
+    height: 150px;
+    margin-left: 400px;
+}
+
+h1.ua{
+    font-size: 25px;
+}
+
+p.waktuacara{
+    font-size: 50px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 0;
+}
+
+.ucapan{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+h1.penyelenggara{
+    font-size: 35px ;
+    padding: 30px;
+}
+
+img.ft1{
+    width: 200px;
+    height: 200px;
+    margin: 30px 0 0 380px;
+    border: inherit;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2), 
+              2px 2px 17px rgba(0, 0, 0, .35), 
+              2px 2px 25px rgba(0, 0, 0, .5);
+}
+
+.pgtn h1.wanita{
+    font-family: "Brush Script MT";
+    padding-bottom: 10px;
+
+}
+
+.pgtn h1.wanita p{
+    font-family: 'Times New Roman', Times, serif;
+}
+.pgtn h1.pria{
+    padding-top: 10px;
+    font-family: "Brush Script MT";
+    padding-bottom: 50px;
+
+}
+
+.pgtn h1.pria p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p.love{
+    font-size: 40px;
+    color: red;
+}
+
+.sv{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+h1.sth{
+    font-family: "Brush Script MT";
+    padding: 70px 0 0 0;
+    font-size: 80px;
+    color: lightskyblue;
+}
+h1.akad{
+    font-family: "Brush Script MT";
+    padding: 190px 0 20px 0;
+    margin-right: 40px;
+    font-size: 40px;
+    color: lightskyblue;
+}
+
+h1.date1{
+    font-size: 30px;
+    color: lightskyblue;
+    padding-bottom: 20px ;
+}
+
+h1.jam{
+    font-size: 25px;
+    padding-bottom: 200px;
+
+}
+
+@media(max-width: 670px){
+    img.imgp{
+        width: 150px;
+        height: 150px;
+        margin: 0 0 0 100px;
+        border-radius: 5px;
+    }

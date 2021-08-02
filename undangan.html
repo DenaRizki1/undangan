@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+     <!-- bootstrap css -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+ 
+     <!-- My css -->
+     <link rel="stylesheet" href="style.css">
+ 
+     <!-- AOS -->
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="pembuka">
+        <div class="container">
+            <div class="row">
+                <div class="foto">
+                    <h1 class="text-center invt">WE INVIT YOU TO <br> CELEBRATE OUR WEDDING</h1>
+                    <img class="imgp" src="ft.png" alt="">
+                    <h1 class="name text-center">Siti Zakiyatun & Fulan</h1>
+                    <button class="play fixed-top text-end" id="play"><i class="bi bi-play-circle"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tgla">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="bismillah">
+                        <img class="bis" src="bismillah.png" alt="">
+                        <h1 class="ua text-center">Maha suci Allah yang telah menciptakan mahluk-Nya berpasang-pasangan. Ya Allah, perkenankanlah kami merangkaikan kasih sayang yang Kau ciptakan diantara kami</h1>
+                        <div class="wa">
+                            <br>
+                            <p class="waktuacara text-center" id="waktuacara"></p>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ucapan">
+        <div class="container">
+            <div class="row ">
+                    <div class="col-md-6">
+                        <h1 class="penyelenggara">Assalamu'alaikum Wr WbDengan memohon Rahmat dan Ridho Allah SWT kami bermaksud <p><br> Menyelenggarakan Acara Pernikahan kami :</p> </h1>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="ft1" src="ft.png" alt="">
+                    </div>
+                    <div class="pgtn">
+                        <h1 class="wanita text-center">Siti Zakiyatun <P>Putri dari Bpk. Dilan <br> &  Ibu Fulanah </P> </h1>
+                        <p class="text-center love"><i class="bi bi-heart-fill"></i></p>
+                        <h1 class="pria text-center">Fulan <p>Putra Dari Bpk. Romeo <br> & Ibu Juliet</p></h1>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sv">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-6 date">
+                    <h1 class="sth" data-aos="fade-up">SAVE THE DATE</h1>
+                </div>
+                <div class="col-md-6">
+                    <h1 class="akad  p">Akad Nikah</h1>
+                    <h1 class="date1 p ">Kamis, 05 <br> Agustus 2021</h1>
+                    <h1 class="jam p">Pukul 08.00 - Selsai <p><br> Kediaman Mempelai Wanita <br> Ds. Jatiseeng Kec. Ciledug Kab. Cirebon </p></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    const p = document.querySelectorAll('.p');
+
+    p.forEach((p, i)=> {
+        p.dataset.aos = "fade-up";
+        p.dataset.aosDelay = i * 200;
+    });
+
+     AOS.init({
+          once: true,
+          offset: 100,
+          delay: 100,
+          duration: 1000,
+        });
+</script>
+</body>
+</html>
